@@ -1,10 +1,17 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-Vue.use(Vuex)
-
 import home from './modules/home'
-export default new Vuex.Store({
+import cart from './modules/cart.js'
+
+// 安装插件
+Vue.use(Vuex);
+
+// 创建仓库
+const store = new Vuex.Store({
 	modules: {
-		home
+		home,
+		cart
 	}
 })
+
+export default store

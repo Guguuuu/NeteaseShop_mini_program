@@ -1,0 +1,72 @@
+.category .header {
+  padding: 20rpx 0;
+}
+.category .header .search {
+  width: 90%;
+  margin: 0 auto;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  background-color: #ddd;
+  border-radius: 4rpx;
+  text-align: center;
+}
+.category .content {
+  display: flex;
+  height: calc(100vh - 102rpx);
+  border-top: 2rpx solid #333;
+}
+.category .content .left {
+  width: 20%;
+  height: 100%;
+  border-right: 2rpx solid #333;
+}
+.category .content .left .navScroll {
+  height: calc(100vh - 102rpx);
+}
+.category .content .left .navScroll .navItem {
+  position: relative;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 27rpx;
+  text-align: center;
+}
+.category .content .left .navScroll .navItem.active::before {
+  content: '';
+  width: 2rpx;
+  height: 40rpx;
+  background-color: #f00;
+  position: absolute;
+  left: 10rpx;
+  top: 10rpx;
+}
+.category .content .right {
+  width: 80%;
+  height: 100%;
+}
+.category .content .right .categoryScroll {
+  height: 100%;
+}
+.category .content .right .categoryScroll .cateImg {
+  width: 520rpx;
+  height: 200rpx;
+  display: block;
+  margin: 10rpx auto;
+}
+.category .content .right .categoryScroll .goodsList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.category .content .right .categoryScroll .goodsList .goodsItem {
+  width: 33.33%;
+  height: 200rpx;
+  text-align: center;
+}
+.category .content .right .categoryScroll .goodsList .goodsItem .goodsImg {
+  width: 90%;
+  height: 140rpx;
+}
+.category .content .right .categoryScroll .goodsList .goodsItem .goodsName {
+  font-size: 24rpx;
+}
+

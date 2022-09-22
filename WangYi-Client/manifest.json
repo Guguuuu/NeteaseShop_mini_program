@@ -1,5 +1,5 @@
 {
-    "name" : "WangYi-Client",
+    "name" : "wangyi-client",
     "appid" : "",
     "description" : "",
     "versionName" : "1.0.0",
@@ -50,11 +50,11 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "wxd495aa97a46c8eca",
+        "appid" : "wx894ae1ef2ecb1936",
         "setting" : {
             "urlCheck" : false,
             "es6" : true,
-            "postcss" : true
+            "postcss" : false
         },
         "usingComponents" : true
     },

@@ -1,0 +1,17 @@
+.personal .header {
+  height: 300rpx;
+  line-height: 200rpx;
+  background-color: #eed7b5;
+  display: flex;
+}
+.personal .header .img {
+  height: 100rpx;
+  width: 100rpx;
+  vertical-align: middle;
+  margin: 50rpx;
+  border-radius: 50rpx;
+}
+.personal .header .exit {
+  height: 80rpx;
+}
+
